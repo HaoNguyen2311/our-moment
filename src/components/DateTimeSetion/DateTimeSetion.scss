@@ -1,0 +1,12 @@
+.date-time-section{
+  max-width: 1200px;
+  margin: auto;
+  .date-start{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    p{
+      margin: 0;
+    }
+  }
+}

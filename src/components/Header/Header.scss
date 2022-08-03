@@ -3,7 +3,7 @@
   max-width: 1200px;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   h2{
     font-size: 50px;
@@ -11,9 +11,6 @@
   }
   span{
     font-size: 50px;
-    color: -webkit-linear-gradient(#eee, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     animation: scale-heart 1.5s alternate infinite ease-in;
   }
 }
