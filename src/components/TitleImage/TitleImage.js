@@ -1,5 +1,5 @@
 import "./TitleImage.scss";
-import OurImage from "../../access/images/ourImage.jpg";
+import ourImage from "../../access/images/ourImage.jpg";
 
 const TitleImage = () => {
   return (
@@ -8,7 +8,7 @@ const TitleImage = () => {
         When a love is true, there is no ending. I hope we get to celebrate for
         many years to come. Happy anniversary!
       </h1>
-      <img src={OurImage} alt="our image" />
+      <img src={ourImage} alt="description of image" />
     </div>
   );
 };
