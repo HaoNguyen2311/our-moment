@@ -17,6 +17,7 @@ const VideoSection = () => {
     <div className="video-section">
       <h3>Turn max volume and feel it =))))))</h3>
       <ReactPlayer
+        width="100%"
         onPlay={onPlay}
         onPause={onPause}
         onEnded={onEnded}
@@ -26,7 +27,7 @@ const VideoSection = () => {
       <div className="music">
         <ReactPlayer
           playing={isPlaying}
-          url="https://www.youtube.com/watch?v=X-y4oROr_Zw&ab_channel=TheVibeGuide"
+          url="https://www.youtube.com/watch?v=4nVyAmssUbQ&ab_channel=Singwithme"
         />
       </div>
     </div>

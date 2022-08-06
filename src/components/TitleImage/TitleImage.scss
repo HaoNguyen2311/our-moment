@@ -12,3 +12,14 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width:767px) {
+  .title-and-image{
+    padding-inline: 12px;
+    padding-inline:20px ;
+    img{
+      width: 100%;
+      height: 500px;
+    }
+  }
+}
