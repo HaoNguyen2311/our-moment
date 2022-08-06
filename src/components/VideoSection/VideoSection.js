@@ -2,7 +2,7 @@ import { Modal } from "antd";
 import { useState } from "react";
 import ReactPlayer from "react-player/youtube";
 import GiftIcon from "./GiftIcon/GiftIcon";
-import "antd/dist/antd.css";
+import "antd/dist/antd.min.css";
 import "./VideoSection.scss";
 
 const VideoSection = () => {
