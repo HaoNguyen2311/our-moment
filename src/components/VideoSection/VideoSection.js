@@ -1,13 +1,13 @@
-import { Modal } from "antd";
+// import { Modal } from "antd";
 import { useState } from "react";
 import ReactPlayer from "react-player/youtube";
-import GiftIcon from "./GiftIcon/GiftIcon";
+// import GiftIcon from "./GiftIcon/GiftIcon";
 import "antd/dist/antd.min.css";
 import "./VideoSection.scss";
 
 const VideoSection = () => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [isModalVisible, setIsModalVisible] = useState(false);
+  // const [isModalVisible, setIsModalVisible] = useState(false);
   const onPlay = (e) => {
     setIsPlaying(true);
   };
@@ -17,13 +17,13 @@ const VideoSection = () => {
   const onEnded = (e) => {
     setIsPlaying(false);
   };
-  const onClickOpenModal = () => {
-    setIsModalVisible(true);
-  };
-  const onCloseModal = () => {
-    setIsModalVisible(false);
-    setIsPlaying(false);
-  };
+  // const onClickOpenModal = () => {
+  //   setIsModalVisible(true);
+  // };
+  // const onCloseModal = () => {
+  //   setIsModalVisible(false);
+  //   setIsPlaying(false);
+  // };
 
   return (
     <div className="video-section">
