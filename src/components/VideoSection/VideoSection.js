@@ -27,24 +27,24 @@ const VideoSection = () => {
 
   return (
     <div className="video-section">
-      <GiftIcon onClick={onClickOpenModal} />
+      {/* <GiftIcon onClick={onClickOpenModal} />
       <Modal
         footer={null}
         wrapClassName="video-modal"
         title="Turn max volume and feel it =))))))"
         visible={isModalVisible}
         onCancel={onCloseModal}
-      >
-        <ReactPlayer
-          playing={isPlaying}
-          width="100%"
-          onPlay={onPlay}
-          onPause={onPause}
-          onEnded={onEnded}
-          muted={true}
-          url="https://youtu.be/85zV_-djU9E"
-        />
-      </Modal>
+      > */}
+      <ReactPlayer
+        playing={isPlaying}
+        width="100%"
+        onPlay={onPlay}
+        onPause={onPause}
+        onEnded={onEnded}
+        muted={true}
+        url="https://youtu.be/85zV_-djU9E"
+      />
+      {/* </Modal> */}
 
       <div className="music">
         <ReactPlayer
