@@ -50,7 +50,7 @@ const VideoSection = () => {
       <div className="music">
         <ReactPlayer
           playing={isPlaying}
-          url="https://www.youtube.com/watch?v=4nVyAmssUbQ&ab_channel=Singwithme"
+          url="https://www.youtube.com/watch?v=nF4yllt96kQ"
         />
       </div>
     </div>
